@@ -1,0 +1,56 @@
+apoorva@DESKTOP-IA3DGF7:~$ mkdir 2022210010.sh
+apoorva@DESKTOP-IA3DGF7:~$ chmod +x 2022210010.sh
+apoorva@DESKTOP-IA3DGF7:~$ pwd
+/home/apoorva
+apoorva@DESKTOP-IA3DGF7:~$ touch Apoorva.txt
+apoorva@DESKTOP-IA3DGF7:~$ la
+' '              .lesshst      .swp            Apoorva.txt   case.sh      exercise4     ifdo.sh        nested_loop.sh   textfile.save
+ .bash_history   .local        .testfile.swp   Var2.sh       deal.sh      file.sh       loop.sh        shellexamples    {file1}_file
+ .bash_logout    .motd_shown   .viminfo        Var3.sh       directory1   filelist      myscript.sh    table.sh
+ .bashrc         .profile      2022210010.sh   argument.sh   directory2   function.sh   nano.45.save   testfile3
+apoorva@DESKTOP-IA3DGF7:~$ ls
+' '              Var2.sh       case.sh      directory2   filelist      loop.sh        nested_loop.sh   testfile3
+ 2022210010.sh   Var3.sh       deal.sh      exercise4    function.sh   myscript.sh    shellexamples    textfile.save
+ Apoorva.txt     argument.sh   directory1   file.sh      ifdo.sh       nano.45.save   table.sh         {file1}_file
+apoorva@DESKTOP-IA3DGF7:~$ echo "thriveni"
+thriveni
+apoorva@DESKTOP-IA3DGF7:~$ nano Apoorva.txt
+apoorva@DESKTOP-IA3DGF7:~$ cat Apoorva.txt
+#!/bin/bash
+apoorva
+singh
+2022
+2022210010
+2024
+
+apoorva@DESKTOP-IA3DGF7:~$ touch singh.txt
+apoorva@DESKTOP-IA3DGF7:~$ nano singh.txt
+apoorva@DESKTOP-IA3DGF7:~$ nano Apoorva.txt
+apoorva@DESKTOP-IA3DGF7:~$ nano singh.txt
+apoorva@DESKTOP-IA3DGF7:~$ nano Apoorva.txt
+apoorva@DESKTOP-IA3DGF7:~$ cp ./Apoorva.txt./singh.txt
+cp: missing destination file operand after './Apoorva.txt./singh.txt'
+Try 'cp --help' for more information.
+apoorva@DESKTOP-IA3DGF7:~$ cp Apoova.txt singh.txt
+cp: cannot stat 'Apoova.txt': No such file or directory
+apoorva@DESKTOP-IA3DGF7:~$ cp Apoorva.txt singh.txt
+apoorva@DESKTOP-IA3DGF7:~$ chmod +x singh.txt
+apoorva@DESKTOP-IA3DGF7:~$ cat singh.txt
+#!/bin/bash
+apoorva
+singh
+2022
+2022210010
+2024
+
+apoorva@DESKTOP-IA3DGF7:~$ rm Apoorva.txt
+apoorva@DESKTOP-IA3DGF7:~$ cat Apoorva.txt
+cat: Apoorva.txt: No such file or directory
+apoorva@DESKTOP-IA3DGF7:~$ tail -2 singh.txt
+2024
+
+apoorva@DESKTOP-IA3DGF7:~$ wc -l singh.txt
+7 singh.txt
+apoorva@DESKTOP-IA3DGF7:~$ echo "Hello.This is our first lab"
+Hello.This is our first lab
+apoorva@DESKTOP-IA3DGF7:~$
